@@ -111,7 +111,7 @@ If submitting this form **transfers money without user interaction**, the site l
 ### **Security Headers Analysis**
 **Risk:** Missing headers like **CSP, HSTS, or X-Frame-Options** make the site vulnerable to various **attacks**.  
 **PoC:** Inspect headers using browser DevTools (`F12 > Network > Headers`).  
-💡 **Recommended Fix:** Implement headers like:
+**Recommended Fix:** Implement headers like:
 ```http
 Content-Security-Policy: default-src 'self';
 X-Frame-Options: DENY;
@@ -145,11 +145,11 @@ If the server returns **password file contents**, it's vulnerable.
 Contributions, issues, and feature requests are **welcome**!  
 
 **To contribute:**  
-1️⃣ **Fork** the repository  
-2️⃣ **Create** a new branch (`git checkout -b feature/YourFeature`)  
-3️⃣ **Commit** your changes (`git commit -m 'Add YourFeature'`)  
-4️⃣ **Push** to the branch (`git push origin feature/YourFeature`)  
-5️⃣ **Open a Pull Request**  
+1. **Fork** the repository  
+2. **Create** a new branch (`git checkout -b feature/YourFeature`)  
+3. **Commit** your changes (`git commit -m 'Add YourFeature'`)  
+4. **Push** to the branch (`git push origin feature/YourFeature`)  
+5. **Open a Pull Request**  
 
 ---
 
