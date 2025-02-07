@@ -165,7 +165,7 @@ If you find this tool **useful**, please **give it a star on GitHub!**
 
 ---
 
-### 📢 **Spread Awareness!**  
+### **Spread Awareness!**  
 **Help improve web security by sharing this tool with ethical hackers & developers!** 
 
 ---
