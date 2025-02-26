@@ -41,23 +41,23 @@ pip install requests argparse
 
 ### **Basic Syntax**
 ```bash
-python security_scan.py -u <TARGET_URL> -p <PARAMETER> [OPTIONS]
+python3 security_scan.py -u <TARGET_URL> -p <PARAMETER> [OPTIONS]
 ```
 
 ### **Examples**
 #### Test for SQL Injection and XSS
 ```bash
-python security_scan.py -u "https://example.com" -p "search" --sqli --xss
+python3 security_scan.py -u "https://example.com" -p "search" --sqli --xss
 ```
 
 #### Check for CSRF and Analyze Security Headers
 ```bash
-python security_scan.py -u "https://example.com" -p "action" --csrf --headers
+python3 security_scan.py -u "https://example.com" -p "action" --csrf --headers
 ```
 
 #### Detect Open Redirects and Directory Traversal
 ```bash
-python security_scan.py -u "https://example.com" -p "redirect" --redirect --traversal
+python3 security_scan.py -u "https://example.com" -p "redirect" --redirect --traversal
 ```
 
 ---
